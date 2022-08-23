@@ -1,0 +1,264 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Bai Jamjuree", sans-serif;
+}
+
+.container {
+  width: 1170px;
+  margin: auto;
+}
+
+h2 {
+  font-size: 45px;
+  line-height: 54px;
+  text-align: center;
+  color: #121212;
+}
+
+#button {
+  background: #ff5959;
+  border-radius: 5px;
+  padding: 10px 20px;
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 15px;
+  border: 3px solid #ff5959;
+  font-size: 20px;
+}
+
+#button:hover {
+  border: 3px solid #ff5959;
+  color: #ff5959;
+  background-color: transparent;
+}
+
+.bg1 {
+  background: rgba(79, 157, 166, 0.1);
+}
+
+.bg2 {
+  background: rgba(255, 89, 89, 0.1);
+}
+
+.bg3 {
+  background: #fff4d6;
+}
+
+/* Common Section Heading */
+.section-heading {
+  margin: 100px auto 50px auto;
+  text-align: center;
+}
+
+.section-heading h2 {
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 54px;
+  text-align: center;
+  color: #121212;
+  margin-bottom: 15px;
+}
+
+.section-heading p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+  color: #707070;
+  width: 650px;
+  margin: auto;
+}
+
+/*Banner Section Design*/
+.banner {
+  background: linear-gradient(360deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2)),
+    url(./assets/img/donation0.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.h-content {
+  color: white;
+  text-align: center;
+  padding: 150px 0px;
+}
+
+.h-content h1 {
+  font-size: 65px;
+}
+
+.h-content p {
+  font-size: 18px;
+  line-height: 28px;
+  width: 50%;
+  margin: 10px auto;
+}
+
+/* Donation Area */
+.donate-amount {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.donate-amount a {
+  background: #fafafa;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+  color: #707070;
+  border-radius: 5px;
+  padding: 30px 20px;
+  display: inline-block;
+  text-decoration: none;
+  margin: 0px 10px;
+  border: 2px solid #fafafa;
+}
+
+.donate-amount a:hover {
+  background: #ffeeee;
+  color: #ff5959;
+  border: 2px solid #ff5959;
+  border-radius: 5px;
+}
+
+.input-box input {
+  width: 65%;
+  padding: 10px 15px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid #dadada;
+  color: #b3b3b3;
+  text-align: center;
+  font-size: 18px;
+}
+
+.input-box input:focus {
+  outline: none;
+}
+
+/* Donate Plan */
+
+.donate-plan {
+}
+
+.plan {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.plan-box {
+  width: 33%;
+  border-radius: 5px;
+  padding: 30px;
+}
+
+.plan-box img {
+  width: 60px;
+  height: 60px;
+}
+
+.plan-name {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  color: #121212;
+}
+
+.plan-des {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #707070;
+}
+
+/* News Later Area */
+.news-input {
+  background: #fff4d6;
+  width: 50%;
+  margin: auto;
+  text-align: center;
+  padding: 60px 20px 40px 20px;
+}
+
+.news-input input[type="text"] {
+  width: 50%;
+  padding: 10px;
+  border: none;
+  background: #d9d9d9;
+}
+
+.news-input input[type="submit"] {
+  padding: 10px 20px;
+  border: none;
+  background: #ff5959;
+  color: white;
+  text-transform: uppercase;
+}
+
+/* Upcoming Event */
+.all-event {
+  display: flex;
+  gap: 20px;
+}
+.event {
+  padding: 35px 10px;
+}
+.s-event {
+  display: flex;
+  flex-direction: column;
+  background: #fafafa;
+}
+
+.event-thumb {
+  width: 100%;
+  margin-right: 20px;
+}
+
+.event-thumb img {
+  width: 100%;
+}
+
+h3.event-name {
+  font-size: 25px;
+}
+
+.status {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0px;
+  border-bottom: 3px solid #c96161;
+  padding: 10px 0px;
+}
+
+.status h4 span {
+  color: #919191;
+}
+
+.date {
+  background: #ff5959;
+  display: inline-block;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 3px;
+}
+
+/* Footer Section */
+.footer {
+  text-align: center;
+  background: #0b0d17;
+  padding: 40px 0px;
+  color: white;
+  margin-top: 30px;
+}
+
+.footer p {
+  margin: 20px 0px;
+}
